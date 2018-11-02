@@ -3,9 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="9465e1b2-f78b-419c-a681-6cb691097e43" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../CodePress/packages/codecategory" beforeDir="false" afterPath="$PROJECT_DIR$/../CodePress/packages/codecategory" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/routes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/codecategory" beforeDir="false" afterPath="$PROJECT_DIR$/packages/codecategory" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/codecategory/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/codecategory/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/codecategory/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/packages/codecategory/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/codecategory/src/CodeCategory/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/packages/codecategory/src/CodeCategory/Models/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/codecategory/tests/CodeCategory/Models/CategoryTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/packages/codecategory/tests/CodeCategory/Models/CategoryTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/CodeCategory/Acceptance/AdminCategoriesTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/CodeCategory/Acceptance/AdminCategoriesTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../codecategory" beforeDir="false" afterPath="$PROJECT_DIR$/../codecategory" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,48 +29,52 @@
     <session id="-254962729">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.49" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="env" value="3" />
+          <entry key="env" value="4" />
           <entry key="example" value="1" />
           <entry key="htaccess" value="2" />
-          <entry key="json" value="10" />
+          <entry key="json" value="11" />
           <entry key="lock" value="1" />
-          <entry key="php" value="141" />
+          <entry key="php" value="144" />
+          <entry key="sqlite" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key=".env file" value="4" />
+          <entry key=".env file" value="5" />
           <entry key="Blade" value="19" />
-          <entry key="JSON" value="11" />
-          <entry key="PHP" value="122" />
+          <entry key="JSON" value="12" />
+          <entry key="PHP" value="125" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="htaccess" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="env" value="55" />
-          <entry key="json" value="104" />
-          <entry key="php" value="3200" />
+          <entry key="env" value="101" />
+          <entry key="json" value="146" />
+          <entry key="php" value="4284" />
           <entry key="txt" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key=".env file" value="55" />
+          <entry key=".env file" value="101" />
           <entry key="Blade" value="971" />
-          <entry key="JSON" value="104" />
-          <entry key="PHP" value="2229" />
+          <entry key="JSON" value="146" />
+          <entry key="PHP" value="3313" />
           <entry key="PLAIN_TEXT" value="28" />
         </counts>
       </usages-collector>
@@ -82,19 +94,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/packages/codecategory/src/CodeCategory/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/CodeCategory/Acceptance/AdminCategoriesTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+            <state relative-caret-position="527">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="e#50#93#0#PHP" expanded="true" />
               </folding>
@@ -103,9 +106,51 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/packages/codecategory/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/packages/codecategory/tests/CodeCategory/Models/CategoryTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="51" column="41" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
+              <folding>
+                <element signature="e#55#98#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/packages/codecategory/src/CodeCategory/Models/Category.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+              <folding>
+                <element signature="e#49#85#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="867">
+              <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/packages/codecategory/src/CodeCategory/Controllers/AdminCategoriesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
+            <state relative-caret-position="476">
               <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
               <folding>
                 <element signature="e#55#98#0#PHP" expanded="true" />
@@ -122,7 +167,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/packages/codecategory/src/resources/views/codecategory/create.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="119">
               <caret line="7" column="77" selection-start-line="7" selection-start-column="77" selection-end-line="7" selection-end-column="77" />
             </state>
           </provider>
@@ -131,34 +176,34 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/packages/codecategory" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/packages/codecategory/src/CodeCategory/Controllers/Controller.php" />
         <option value="$PROJECT_DIR$/packages/codecategory/src/resources/views/index.balde.php" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/database/factories/ModelFactory.php" />
         <option value="$PROJECT_DIR$/packages/codecategory/src/CodeCategory/Providers/CodeCategoryServiceProvider.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_12_15_1632_CreateCodeCategoriesTable.php" />
         <option value="$PROJECT_DIR$/packages/codecategory/tests/AbstractTestCase.php" />
-        <option value="$PROJECT_DIR$/config/database.php" />
         <option value="$PROJECT_DIR$/packages/codecategory/src/resources/views/codecategory/index.blade.php" />
         <option value="$PROJECT_DIR$/packages/codecategory/src/resources/migrations/2015_12_15_1632_CreateCodeCategoriesTable.php" />
-        <option value="$PROJECT_DIR$/packages/codecategory/src/CodeCategory/Models/Category.php" />
-        <option value="$PROJECT_DIR$/packages/codecategory/composer.json" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/packages/codecategory/tests/CodeCategory/Models/CategoryTest.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/packages/codecategory/src/CodeCategory/routes.php" />
         <option value="$PROJECT_DIR$/packages/codecategory/src/resources/views/codecategory/create.blade.php" />
-        <option value="$PROJECT_DIR$/tests/CodeCategory/Acceptance/AdminCategoriesTest.php" />
         <option value="$PROJECT_DIR$/packages/codecategory/src/CodeCategory/Controllers/AdminCategoriesController.php" />
+        <option value="$PROJECT_DIR$/config/database.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/tests/CodeCategory/Acceptance/AdminCategoriesTest.php" />
+        <option value="$PROJECT_DIR$/packages/codecategory/composer.json" />
+        <option value="$PROJECT_DIR$/packages/codecategory/src/CodeCategory/Models/Category.php" />
+        <option value="$PROJECT_DIR$/packages/codecategory/tests/CodeCategory/Models/CategoryTest.php" />
       </list>
     </option>
   </component>
@@ -240,11 +285,11 @@
       <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="176" />
-    <option name="y" value="8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="79" />
+    <option name="y" value="368" />
     <option name="width" value="1116" />
-    <option name="height" value="366" />
+    <option name="height" value="395" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -259,6 +304,48 @@
             <path>
               <item name="CodePress52" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodePress52" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodePress52" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodePress52" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodePress52" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodePress52" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="codecategory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodePress52" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodePress52" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="codecategory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodePress52" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodePress52" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="codecategory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="CodeCategory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodePress52" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodePress52" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="codecategory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="CodeCategory" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodePress52" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodePress52" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="codecategory" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CodePress52" type="b2602c69:ProjectViewProjectNode" />
@@ -332,17 +419,19 @@
       <workItem from="1540873851219" duration="4114000" />
       <workItem from="1540918527238" duration="13180000" />
       <workItem from="1541007356461" duration="9727000" />
+      <workItem from="1541094449504" duration="2392000" />
+      <workItem from="1541098007754" duration="4547000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42521000" />
+    <option name="totallyTimeSpent" value="49460000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1314" height="784" extended-state="6" />
+    <frame x="79" y="368" width="1116" height="395" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.14513557" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.17897727" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32996634" />
@@ -423,13 +512,6 @@
     <entry file="file://$PROJECT_DIR$/.env.example">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Constraints/PageConstraint.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -466,13 +548,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="58" column="54" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/factories/ModelFactory.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -498,29 +573,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
-          <folding>
-            <element signature="e#7#38#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1581" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/codecategory/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/codecategory/src/CodeCategory/Models/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/packages/codecategory/src/resources/views/codecategory/index.blade.php">
@@ -534,9 +592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
-          <folding>
-            <element signature="e#7#48#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -551,9 +606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-          <folding>
-            <element signature="e#137#194#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -628,10 +680,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/packages/codecategory/tests/CodeCategory/Models/CategoryTest.php">
+    <entry file="file://$PROJECT_DIR$/database/database.sqlite">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        <state relative-caret-position="221">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/codecategory/src/CodeCategory/Controllers/AdminCategoriesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding>
+            <element signature="e#55#98#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -640,18 +712,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/packages/codecategory/src/resources/views/codecategory/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="119">
           <caret line="7" column="77" selection-start-line="7" selection-start-column="77" selection-end-line="7" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/codecategory/src/CodeCategory/Controllers/AdminCategoriesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-          <folding>
-            <element signature="e#55#98#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -664,10 +726,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/CodeCategory/Acceptance/AdminCategoriesTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+        <state relative-caret-position="527">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="e#50#93#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/codecategory/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/codecategory/src/CodeCategory/Models/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+          <folding>
+            <element signature="e#49#85#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/codecategory/tests/CodeCategory/Models/CategoryTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="51" column="41" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
+          <folding>
+            <element signature="e#55#98#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
