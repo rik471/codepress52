@@ -3,23 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9465e1b2-f78b-419c-a681-6cb691097e43" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../CodePress/packages/codecategory" beforeDir="false" afterPath="$PROJECT_DIR$/../CodePress/packages/codecategory" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CodePress52.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CodePress52.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/codecategory" beforeDir="false" afterPath="$PROJECT_DIR$/packages/codecategory" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/codecategory/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/codecategory/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/codecategory/src/CodeCategory/Controllers/AdminCategoriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/packages/codecategory/src/CodeCategory/Controllers/AdminCategoriesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/codecategory/tests/AbstractTestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/packages/codecategory/tests/AbstractTestCase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/codedatabase/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/codedatabase/phpunit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/codedatabase/src/CodeDatabase/AbstractRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/packages/codedatabase/src/CodeDatabase/AbstractRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/codedatabase/tests/AbstractTestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/packages/codedatabase/tests/AbstractTestCase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/codedatabase/tests/CodeDatabase/AbstractRepositoryTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/packages/codedatabase/tests/CodeDatabase/AbstractRepositoryTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/codedatabase/tests/stub/Model/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/packages/codedatabase/tests/stub/Model/Category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/CodeCategory/Acceptance/AdminCategoriesTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/CodeCategory/Acceptance/AdminCategoriesTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../codecategory" beforeDir="false" afterPath="$PROJECT_DIR$/../codecategory" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +19,7 @@
     <session id="-254962729">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.22" value="1" />
@@ -61,7 +45,7 @@
           <entry key="json" value="18" />
           <entry key="lock" value="1" />
           <entry key="name" value="1" />
-          <entry key="php" value="186" />
+          <entry key="php" value="187" />
           <entry key="sqlite" value="2" />
           <entry key="xml" value="7" />
         </counts>
@@ -71,7 +55,7 @@
           <entry key=".env file" value="6" />
           <entry key="Blade" value="20" />
           <entry key="JSON" value="18" />
-          <entry key="PHP" value="166" />
+          <entry key="PHP" value="167" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="XML" value="7" />
           <entry key="htaccess" value="2" />
@@ -113,49 +97,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/packages/codecategory/src/CodeCategory/Repository/CategoryRepository.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="26" column="80" selection-start-line="26" selection-start-column="80" selection-end-line="26" selection-end-column="80" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/CodeCategory/Acceptance/AdminCategoriesTest.php">
+        <entry file="file://$PROJECT_DIR$/packages/codedatabase/tests/CodeDatabase/CategoryRepositoryTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/packages/codecategory/tests/CodeCategory/Controllers/AdminCategoriesControllerTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/packages/codecategory/src/CodeCategory/Controllers/AdminCategoriesController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="62" column="59" selection-start-line="62" selection-start-column="59" selection-end-line="62" selection-end-column="59" />
+            <state relative-caret-position="27">
+              <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
               <folding>
-                <element signature="e#55#98#0#PHP" expanded="true" />
+                <element signature="e#49#92#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -171,7 +119,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/packages/codedatabase" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -210,13 +158,13 @@
         <option value="$PROJECT_DIR$/phpunit.xml" />
         <option value="$PROJECT_DIR$/packages/codedatabase/phpunit.xml" />
         <option value="$PROJECT_DIR$/packages/codedatabase/tests/stub/Repository/CategoryRepository.php" />
-        <option value="$PROJECT_DIR$/packages/codedatabase/tests/CodeDatabase/CategoryRepositoryTest.php" />
         <option value="$PROJECT_DIR$/packages/codedatabase/src/CodeDatabase/AbstractRepository.php" />
         <option value="$PROJECT_DIR$/packages/codecategory/composer.json" />
         <option value="$PROJECT_DIR$/packages/codecategory/src/CodeCategory/Repository/CategoryRepository.php" />
         <option value="$PROJECT_DIR$/packages/codecategory/tests/CodeCategory/Controllers/AdminCategoriesControllerTest.php" />
         <option value="$PROJECT_DIR$/packages/codecategory/src/CodeCategory/Controllers/AdminCategoriesController.php" />
         <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/packages/codedatabase/tests/CodeDatabase/CategoryRepositoryTest.php" />
       </list>
     </option>
   </component>
@@ -298,7 +246,7 @@
       <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="224" />
     <option name="y" value="12" />
     <option name="width" value="1031" />
@@ -341,20 +289,28 @@
             <path>
               <item name="CodePress52" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodePress52" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodePress52" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodePress52" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="codedatabase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodePress52" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodePress52" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="codedatabase" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CodePress52" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodePress52" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="codedatabase" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="CodeCategory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodePress52" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodePress52" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="CodeCategory" type="462c0819:PsiDirectoryNode" />
-              <item name="Acceptance" type="462c0819:PsiDirectoryNode" />
+              <item name="CodeDatabase" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -436,12 +392,12 @@
       <workItem from="1541635634825" duration="1910000" />
       <workItem from="1541695675576" duration="2390000" />
       <workItem from="1541780232320" duration="3469000" />
-      <workItem from="1541787576087" duration="8536000" />
+      <workItem from="1541787576087" duration="9002000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82341000" />
+    <option name="totallyTimeSpent" value="82807000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -453,9 +409,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="224" y="12" width="1031" height="396" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.19591528" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32996634" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.32921812" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+    </layout>
+    <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.26673532" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
@@ -475,7 +451,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -711,16 +687,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/packages/codedatabase/tests/CodeDatabase/CategoryRepositoryTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="160" column="49" selection-start-line="160" selection-start-column="49" selection-end-line="160" selection-end-column="49" />
-          <folding>
-            <element signature="e#49#92#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/packages/codedatabase/src/CodeDatabase/AbstractRepository.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -735,13 +701,6 @@
           <folding>
             <element signature="e#54#100#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/codecategory/tests/CodeCategory/Controllers/AdminCategoriesControllerTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -762,10 +721,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/packages/codecategory/src/CodeCategory/Repository/CategoryRepository.php">
+    <entry file="file://$PROJECT_DIR$/tests/CodeCategory/Acceptance/AdminCategoriesTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        <state relative-caret-position="220">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -776,10 +735,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/CodeCategory/Acceptance/AdminCategoriesTest.php">
+    <entry file="file://$PROJECT_DIR$/packages/codecategory/tests/CodeCategory/Controllers/AdminCategoriesControllerTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="180">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/codecategory/src/CodeCategory/Repository/CategoryRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/codedatabase/tests/CodeDatabase/CategoryRepositoryTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+          <folding>
+            <element signature="e#49#92#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
