@@ -38,13 +38,27 @@ class AdminPostsTest extends \TestCase
             ->see('Create Post');
     }
 
-    /*public function test_create_new_post()
+    public function test_click_edit_a_post()
     {
-        $this->visit('/admin/posts/create')
-            ->type('Category Test', 'name')
-            ->check('active')
-            ->press('Create Category')
+        $post = Post::create(['title'=>'Post 1', 'content'=>'Conteudo do meu post']);
+        $id = $post->id;
+        $idMenosUm = $id - 1;
+        $this->visit('/admin/posts/')
+            ->click("link_edit_post_$id")
+            ->seePageIs("/admin/posts/$idMenosUm/edit")
+            ->see('Edit Post');
+    }
+
+    public function test_update_a_post()
+    {
+        $post = Post::create(['title'=>'Post 1', 'content'=>'Conteudo do meu post']);
+        $this->visit("/admin/posts/{$post->id}/edit")
+            ->type('Post Alterado', 'title')
+            ->type('Conteudo do meu post', 'content')
+            ->press('Submit')
             ->seePageIs('/admin/posts')
-            ->see('Category Test');
-    }*/
+            ->see('Post Alterado')
+            ->see('Conteudo do meu post');
+    }
+
 }
