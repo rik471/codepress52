@@ -1,5 +1,6 @@
 <?php
 
+use CodePress\CodePosts\Models\Post;
 use CodePress\CodePosts\Models\Comment;
 use Illuminate\Database\Seeder;
 use CodePress\CodeCategory\Models\Category;

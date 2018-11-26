@@ -2,6 +2,7 @@
 
 use CodePress\CodeCategory\Models\Category;
 use CodePress\CodePosts\Models\Comment;
+use CodePress\CodePosts\Models\Post;
 
 $factory->define(App\User::class, function (Faker\Generator $faker) {
     return [
