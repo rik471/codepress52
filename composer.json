@@ -5,7 +5,7 @@
     "license": "MIT",
     "type": "project",
     "require": {
-        "php": ">=5.5.9",
+        "php": ">=7",
         "laravel/framework": "5.2.*",
         "cviebrock/eloquent-sluggable": "^3.0",
         "laravelcollective/html":"5.2.*",
@@ -26,7 +26,8 @@
             "App\\": "app/",
             "CodePress\\CodeCategory\\":"packages/codecategory/src/CodeCategory/",
             "CodePress\\CodeDatabase\\": "packages/codedatabase/src/CodeDatabase/",
-            "CodePress\\CodePosts\\":"packages/codeposts/src/CodePosts/"
+            "CodePress\\CodePosts\\":"packages/codeposts/src/CodePosts/",
+            "CodePress\\CodeUser\\":"packages/codeuser/src/CodeUser"
         }
     },
     "autoload-dev": {
