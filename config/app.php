@@ -90,7 +90,7 @@ return [
     | will not be safe. Please do this before deploying an application!
     |
     */
-''
+
     'key' => env('APP_KEY'),
 
     'cipher' => 'AES-256-CBC',
@@ -150,6 +150,7 @@ return [
 
         CodePress\CodeCategory\Providers\CodeCategoryServiceProvider::class,
         CodePress\CodePosts\Providers\CodePostServiceProvider::class,
+        \CodePress\CodeUser\Providers\CodeUserServiceProvider::class,
         /*
          * Application Service Providers...
          */
