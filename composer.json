@@ -9,7 +9,8 @@
         "laravel/framework": "5.2.*",
         "cviebrock/eloquent-sluggable": "^3.0",
         "laravelcollective/html":"5.2.*",
-        "code_press/codedatabase": "^0.0.1"
+        "code_press/codedatabase": "^0.0.1",
+        "code_press/codeuser":"dev-master"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -26,7 +27,8 @@
             "App\\": "app/",
             "CodePress\\CodeCategory\\":"packages/codecategory/src/CodeCategory/",
             "CodePress\\CodeDatabase\\": "packages/codedatabase/src/CodeDatabase/",
-            "CodePress\\CodePosts\\":"packages/codeposts/src/CodePosts/"
+            "CodePress\\CodePosts\\":"packages/codeposts/src/CodePosts/",
+            "CodePress\\CodeUser\\" : "packages/codeuser/src/CodeUser/"
         }
     },
     "autoload-dev": {
