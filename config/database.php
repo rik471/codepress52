@@ -27,7 +27,7 @@ return [
     */
 
 
-    'default' => env('DB_CONNECTION', 'sqlite'),
+    'default' => 'sqlite',
         
     /*
     |--------------------------------------------------------------------------
@@ -49,21 +49,16 @@ return [
 
         'sqlite' => [
             'driver' => 'sqlite',
-            'database' => database_path('database/database.sqlite'),
-            'port' => env('DB_PORT', '3307'),
+            'database' => base_path('database/database.sqlite'),
+            'port' => '3306',
             'prefix' => '',
         ],
 
         'mysql' => [
             'driver' => 'mysql',
             'host' => env('DB_HOST', 'localhost'),
-<<<<<<< HEAD
-            'port' => env('DB_PORT', '3307'),
-            'database' => env('DB_DATABASE', 'forge'),
-=======
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'laravel'),
->>>>>>> 5cc9895d23d84e47cf0d807988f1b114c82f63d7
+            'database' => env('DB_DATABASE', 'forge'),
             'username' => env('DB_USERNAME', 'forge'),
             'password' => env('DB_PASSWORD', ''),
             'charset' => 'utf8',

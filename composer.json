@@ -10,12 +10,9 @@
         "cviebrock/eloquent-sluggable": "^3.0",
         "laravelcollective/html":"5.2.*",
         "code_press/codedatabase": "^0.0.1",
-<<<<<<< HEAD
-        "code_press/codeuser":"dev-master"
-=======
         "code_press/codeuser":"dev-master",
         "doctrine/dbal": "~2.3"
->>>>>>> 5cc9895d23d84e47cf0d807988f1b114c82f63d7
+
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

@@ -2,7 +2,7 @@
 
 namespace App\Providers;
 
-use Illuminate\Contracts\Auth\Access\Gate as GateContract;
+use Illuminate\Contracts\Auth\Access\Gate;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
 
 class AuthServiceProvider extends ServiceProvider
@@ -22,9 +22,17 @@ class AuthServiceProvider extends ServiceProvider
      * @param  \Illuminate\Contracts\Auth\Access\Gate  $gate
      * @return void
      */
-    public function boot(GateContract $gate)
+    public function boot(Gate $gate)
     {
         $this->registerPolicies($gate);
+        $gate->before(function($user, $ability){
+            if($user->email == "user@email"){
+                return true;
+            }
+        });
+        $gate->define('update-category', function($user, $category){
+            return $category->user->id == $user->id;
+        });
 
         //
     }
