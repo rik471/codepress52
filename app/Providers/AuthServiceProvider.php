@@ -2,6 +2,8 @@
 
 namespace App\Providers;
 
+use App\Policies\CategoryPolicy;
+use CodePress\CodeCategory\Models\Category;
 use Illuminate\Contracts\Auth\Access\Gate;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
 
@@ -13,7 +15,7 @@ class AuthServiceProvider extends ServiceProvider
      * @var array
      */
     protected $policies = [
-        'App\Model' => 'App\Policies\ModelPolicy',
+        Category::class => CategoryPolicy::class
     ];
 
     /**
@@ -25,15 +27,9 @@ class AuthServiceProvider extends ServiceProvider
     public function boot(Gate $gate)
     {
         $this->registerPolicies($gate);
-        $gate->before(function($user, $ability){
-            if($user->email == "user@email"){
-                return true;
-            }
-        });
-        $gate->define('update-category', function($user, $category){
+
+        $gate->define('update-category', function ($user, $category) {
             return $category->user->id == $user->id;
         });
-
-        //
     }
 }
