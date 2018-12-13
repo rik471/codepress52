@@ -176,12 +176,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rik471/codeuser.git",
-                "reference": "26caaacbf35c7b9676f0397ed08d4f6795ebeceb"
+                "reference": "3eee50493ee66b7f39728a36d4af08e1a3893110"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rik471/codeuser/zipball/26caaacbf35c7b9676f0397ed08d4f6795ebeceb",
-                "reference": "26caaacbf35c7b9676f0397ed08d4f6795ebeceb",
+                "url": "https://api.github.com/repos/rik471/codeuser/zipball/3eee50493ee66b7f39728a36d4af08e1a3893110",
+                "reference": "3eee50493ee66b7f39728a36d4af08e1a3893110",
                 "shasum": ""
             },
             "require": {
@@ -203,7 +203,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2018-12-05T04:20:19+00:00"
+            "time": "2018-12-11T19:08:01+00:00"
         },
         {
             "name": "cviebrock/eloquent-sluggable",

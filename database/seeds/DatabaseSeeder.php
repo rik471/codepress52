@@ -16,16 +16,13 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         // $this->call(UsersTableSeeder::class);
-        $user1 = factory(User::class)->make();
-        $user2 = factory(User::class)->make(['email' => 'user2@email']);
-        $user1->save();
-        $user2->save();
         factory(Category::class, 5)->create();
         factory(Post::class, 10)->create()->each(function ($post){
             foreach (range(1, 10)as $value){
                 $post->comments()->save(factory(Comment::class)->make());
             }
         });
+        factory(User::class)->create();
         $this->command->info("Finished Seeders!");
     }
 }

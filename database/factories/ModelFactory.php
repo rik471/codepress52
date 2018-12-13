@@ -19,7 +19,6 @@ $factory->define(Category::class, function (Faker\Generator $faker) {
     return [
         'name' => $faker->name,
         'active' => true,
-        'user_id' => rand(1,2)
     ];
 });
 

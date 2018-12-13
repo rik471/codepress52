@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/codeuser/src/CodeUser" isTestSource="false" packagePrefix="CodePress\CodeUser\" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/classpreloader/classpreloader" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/code_press/codedatabase" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/code_press/codeuser" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/dnoegel/php-xdg-base-dir" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/fzaninotto/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/hamcrest/hamcrest-php" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/jakub-onderka/php-console-color" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/jakub-onderka/php-console-highlighter" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/jeremeamia/SuperClosure" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/laravel/framework" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/league/flysystem" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/mockery/mockery" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/mtdowling/cron-expression" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/nesbot/carbon" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/orchestra/database" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/orchestra/testbench" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/paragonie/random_compat" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/phpdocumentor/reflection-common" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/phpdocumentor/reflection-docblock" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/phpdocumentor/type-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/phpspec/prophecy" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/phpunit/php-token-stream" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/phpunit/phpunit-mock-objects" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/psy/psysh" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/sebastian/resource-operations" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/swiftmailer/swiftmailer" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/symfony/css-selector" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/symfony/debug" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/symfony/dom-crawler" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/symfony/http-kernel" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/symfony/polyfill-php56" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/symfony/polyfill-util" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/vlucas/phpdotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/codeuser/vendor/webmozart/assert" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
