@@ -151,6 +151,7 @@ return [
         CodePress\CodeCategory\Providers\CodeCategoryServiceProvider::class,
         CodePress\CodePosts\Providers\CodePostServiceProvider::class,
         \CodePress\CodeUser\Providers\CodeUserServiceProvider::class,
+        \CodePress\CodeTag\Providers\CodeTagServiceProvider::class,
         /*
          * Application Service Providers...
          */

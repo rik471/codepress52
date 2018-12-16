@@ -16,6 +16,8 @@ class CreateUsers extends Migration
     public function up()
     {
         $roleAdmin = Role::where('name', Role::ROLE_ADMIN)->first();
+        $roleRedator = Role::where('name', Role::ROLE_REDATOR)->first();
+        $roleEditor = Role::where('name', Role::ROLE_EDITOR)->first();
 
         $admin = User::create([
             'name' => 'Administrator',
@@ -23,7 +25,21 @@ class CreateUsers extends Migration
             'password' => bcrypt(123456)
         ]);
 
+        $redator = User::create([
+            'name' => 'Redator',
+            'email' => 'redator@codepress.com',
+            'password' => bcrypt(123456)
+        ]);
+
+        $editor = User::create([
+            'name' => 'Editor',
+            'email' => 'editor@codepress.com',
+            'password' => bcrypt(123456)
+        ]);
+
         $admin->roles()->save($roleAdmin);
+        $redator->roles()->save($roleRedator);
+        $editor->roles()->save($roleEditor);
 
     }
 

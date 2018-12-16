@@ -30,7 +30,8 @@
             "CodePress\\CodeCategory\\":"packages/codecategory/src/CodeCategory/",
             "CodePress\\CodeDatabase\\": "packages/codedatabase/src/CodeDatabase/",
             "CodePress\\CodePosts\\":"packages/codeposts/src/CodePosts/",
-            "CodePress\\CodeUser\\" : "packages/codeuser/src/CodeUser/"
+            "CodePress\\CodeUser\\" : "packages/codeuser/src/CodeUser/",
+            "CodePress\\CodeTag\\": "packages/codetags/src/CodeTag/"
         }
     },
     "autoload-dev": {

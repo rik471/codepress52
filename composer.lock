@@ -176,12 +176,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rik471/codeuser.git",
-                "reference": "3eee50493ee66b7f39728a36d4af08e1a3893110"
+                "reference": "3f092cb5df7da3cfe488154b4f7058c7405db821"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rik471/codeuser/zipball/3eee50493ee66b7f39728a36d4af08e1a3893110",
-                "reference": "3eee50493ee66b7f39728a36d4af08e1a3893110",
+                "url": "https://api.github.com/repos/rik471/codeuser/zipball/3f092cb5df7da3cfe488154b4f7058c7405db821",
+                "reference": "3f092cb5df7da3cfe488154b4f7058c7405db821",
                 "shasum": ""
             },
             "require": {
@@ -203,7 +203,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2018-12-11T19:08:01+00:00"
+            "time": "2018-12-13T14:02:26+00:00"
         },
         {
             "name": "cviebrock/eloquent-sluggable",
@@ -365,16 +365,16 @@
         },
         {
             "name": "doctrine/dbal",
-            "version": "v2.9.0",
+            "version": "v2.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "21fdabe2fc01e004e1966f200d900554876bc63c"
+                "reference": "ec74d6e300d78fbc896669c3ca57ef9719adc9c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/21fdabe2fc01e004e1966f200d900554876bc63c",
-                "reference": "21fdabe2fc01e004e1966f200d900554876bc63c",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/ec74d6e300d78fbc896669c3ca57ef9719adc9c6",
+                "reference": "ec74d6e300d78fbc896669c3ca57ef9719adc9c6",
                 "shasum": ""
             },
             "require": {
@@ -443,7 +443,7 @@
                 "php",
                 "queryobject"
             ],
-            "time": "2018-12-04T04:39:48+00:00"
+            "time": "2018-12-14T04:51:13+00:00"
         },
         {
             "name": "doctrine/event-manager",

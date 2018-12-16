@@ -26,9 +26,10 @@ class CreateDataAcl extends Migration
             'name' => Role::ROLE_REDATOR
         ]);
 
+
         $permissionPublishPost = Permission::create([
             'name' => 'publish_post',
-            'description' => 'Permissao para publicar posts em rascunho.'
+            'description' => 'Permission to post draft Posts'
         ]);
 
         $permissionAccessCategories = Permission::create([
@@ -41,15 +42,21 @@ class CreateDataAcl extends Migration
             'description' => 'Permission to access to view Users page.'
         ]);
 
-        $permissionAccesPosts = Permission::create([
+        $permissionAccesPost = Permission::create([
             'name' => 'access_posts',
             'description' => 'Permission to access to access Posts page.'
         ]);
 
+        $permissionAccessTags = Permission::create([
+            'name' => 'access_tags',
+            'description' => 'Permission to access Tags page'
+        ]);
+
+
         $roleEditor->permissions()->save($permissionPublishPost);
-        //$roleEditor->permissions()->save($permissionAccessCategories);
         $roleEditor->permissions()->save($permissionAccesUsers);
-        $roleRedator->permissions()->save($permissionAccesPosts);
+        $roleRedator->permissions()->save($permissionAccesPost);
+        $roleEditor->permissions()->save($permissionAccesPost);
 
     }
 
